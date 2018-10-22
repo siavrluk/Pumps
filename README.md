@@ -24,6 +24,8 @@ After these transformations, there are three different representations of the da
 
 In the following table we summarize the performing result for different algorithms. Note that in the CV column the score is calculated via 3-fold cross-validation on the training data. The test results are calculated only once and are obtained via submitting the predictions at DrivenData (https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/submissions/). Bolded are the algorighms that performed best on the train and on the test sets. 
 
+When scoring accuracy, the simplest benchmark is to predict the most common class -- in our case, "functional". This benchmark would score an accuracy of 0.5418 on the training set.
+
 
 | Algorithm | Dataset | CV | Test |
 |---------- | ------- | -- | ---- |
