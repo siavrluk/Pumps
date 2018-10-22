@@ -26,7 +26,7 @@ In the following table we summarize the performing result for different algorith
 
 
 | Algorithm | Dataset | CV | Test |
------------------------------------
+|---------- | ------- | -- | ---- |
 | Logistic Regression | train_dummy | 0.7383 | 0.7349 | 
 | Neural Network | train_pca70 | 0.7720 | 0.7810 | 
 | KNN, k = 10 | train_pca70 | 0.7690 | 0.7746 | 
