@@ -9,7 +9,7 @@ The data comes in 3 files:
 * Test set values -- contains the independent variables that need predictions
 
 The original training and test set have 40 features most of which are categorical.
-One issue with the data is that there are many missing values. We handle them in the following way. For categorical variables we define new category "uknown" to denote the missing values. Numerical features with more than 35% will not be used. For the rest of the numerical variables we use mean/median to impute the missing entries. 
+One issue with the data is that there are many missing values. We handle them in the following way. For categorical variables we define new category "unknown" to denote the missing values. Numerical features with more than 35% will not be used. For the rest of the numerical variables we use mean/median to impute the missing entries. 
 Another issue is that few of the categorical features have more than 2000 unique values. For these we select the top 20 unique values and group the rest in new category "other".
 Since some of the categorical features represent the same information on different level of granularity, we choose to use just one of them.
 
